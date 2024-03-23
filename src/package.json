@@ -1,0 +1,15 @@
+{
+  "name": "cucumber-postman",
+  "version": "0.1.0",
+  "description": "Generate postman test collection from Gherkin feature files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "declankieran-nhsd",
+  "license": "MIT",
+  "dependencies": {
+    "gherkin-parse": "^1.0.8",
+    "uuid": "^9.0.1"
+  }
+}

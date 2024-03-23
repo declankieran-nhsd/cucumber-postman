@@ -1,2 +1,15 @@
 # cucumber-postman
-Generate test stub postman collection from gherkin feature file
+
+## Setup
+
+```bash
+cd src
+npm install
+cd ..
+```
+
+## Run
+
+```bash
+node src/index.js
+```
