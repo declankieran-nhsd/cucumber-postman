@@ -2,10 +2,12 @@ const fs = require('node:fs');
 const path = require('path')
 const parser = require("gherkin-parse");
 const { v4: uuidv4 } = require('uuid');
+const { platform } = process;
+const locale = path[platform === `win32` ? `win32` : `posix`];
 
 //TODO args, maybe env vars for paths
-const featuresPath = './features/';
-const collectionsPath = './collections/';
+const featuresPath = './features/'.split(path.sep).join(locale.sep);
+const collectionsPath = './collections/'.split(path.sep).join(locale.sep);;
 
 featureFiles = fs.readdirSync(featuresPath).filter(
     featureFile => path.extname(featureFile) === '.feature'
