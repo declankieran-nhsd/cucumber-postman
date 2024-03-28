@@ -41,7 +41,7 @@ function createCollections(featureFiles){
 function createCollectionInfo(featureName){
     return {
         _postman_id: uuidv4(),
-        name: "Feature: " + featureName,
+        name: "Feature " + featureName,
         schema: "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
         //_exporter_id: 0 // Not sure what this is for...
     };
