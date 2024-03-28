@@ -1,5 +1,7 @@
 # cucumber-postman
 
+**TODO** - update how paths are handled to make it work in windows
+
 ## Setup
 
 ```bash
