@@ -130,3 +130,4 @@ dist
 .pnp.*
 notes
 collections
+package-lock.json
