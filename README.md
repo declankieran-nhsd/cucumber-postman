@@ -3,9 +3,7 @@
 ## Setup
 
 ```bash
-cd src
-npm install
-cd ..
+npm i
 ```
 
 ## Run
